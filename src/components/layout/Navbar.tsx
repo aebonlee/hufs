@@ -76,7 +76,7 @@ const Navbar = (): ReactElement => {
       <div className="topbar">
         <div className="container">
           <div className="topbar-left">
-            <span className="topbar-tag">기업강의 맞춤제작 2026.05.18</span>
+            <span className="topbar-tag">한국외국어대학교 맞춤제작 : 2026.06.26</span>
             <span className="topbar-tag topbar-tag-extra">DreamIT Biz -  Ph.D Aebon</span>
           </div>
           <div className="topbar-right">

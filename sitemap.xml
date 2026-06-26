@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://hufs.dreamitbiz.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/about/company</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/about/instructor</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/curriculum</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/curriculum/basic</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/curriculum/intermediate</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/lecture</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/lecture/setup</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/lecture/basic</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/lecture/intermediate</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/claude-code/intro</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/claude-code/markdown</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/claude-code/skills</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/claude-code/advanced</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/practice</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/prompt-cases</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/prompt-eval</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/prompt-eval/workshop</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/prompt-eval/practice</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/vibe-practice</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hufs.dreamitbiz.com/recommended</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+</urlset>

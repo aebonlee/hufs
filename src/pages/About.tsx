@@ -148,7 +148,7 @@ const About = (): ReactElement => {
                 <div style={{ fontSize: '12px', fontWeight: 700, color: 'var(--gold)', marginBottom: '8px', letterSpacing: '0.05em' }}>DEVELOPER</div>
                 <div style={{ fontSize: '18px', fontWeight: 700, marginBottom: '8px' }}>드림아이티비즈</div>
                 <div style={{ fontSize: '13px', opacity: 0.7, lineHeight: 1.5 }}>
-                  86개 교육 사이트를 운영하는 에듀테크 전문 기업
+                  122개 교육 사이트를 운영하는 에듀테크 전문 기업
                 </div>
                 <div style={{ marginTop: '16px', fontSize: '13px', fontWeight: 600, color: 'var(--gold)' }}>
                   자세히 보기 <i className="fa-solid fa-arrow-right" style={{ marginLeft: '4px', fontSize: '11px' }} />

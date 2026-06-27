@@ -5,14 +5,14 @@ import type { ReactElement } from 'react';
 const EXPERTISE = [
   { area: '생성형 AI 교육', detail: 'ChatGPT, Gemini, Claude, Copilot 등 AI 도구 활용 교육', icon: 'fa-robot' },
   { area: '프롬프트 엔지니어링', detail: 'SCORE 프레임워크, Chain-of-Thought, Few-shot 등 고급 기법', icon: 'fa-wand-magic-sparkles' },
-  { area: '에듀테크 플랫폼', detail: 'React + Supabase 기반 86개 교육 사이트 설계·개발·운영', icon: 'fa-laptop-code' },
+  { area: '에듀테크 플랫폼', detail: 'React + Supabase 기반 122개 교육 사이트 설계·개발·운영', icon: 'fa-laptop-code' },
   { area: 'IT/디지털 전환', detail: '기업 DX 컨설팅, 웹 시스템 구축, 데이터 분석', icon: 'fa-chart-line' },
   { area: '대학 교육', detail: 'AI·SW개론, 컴퓨팅 사고 등 대학 교과목 강의', icon: 'fa-graduation-cap' },
   { area: '출판/콘텐츠', detail: 'AI·IT·경영 분야 전문 도서 기획·출판', icon: 'fa-book' },
 ];
 
 const CAREER = [
-  { period: '현재', role: '드림아이티비즈(DreamIT Biz) 대표', detail: '에듀테크 전문 기업 경영, 86개 교육 사이트 운영' },
+  { period: '현재', role: '드림아이티비즈(DreamIT Biz) 대표', detail: '에듀테크 전문 기업 경영, 122개 교육 사이트 운영' },
   { period: '2018~2023', role: '경기대학교 겸임교수', detail: '소프트웨어 기초 및 파이썬 프로그래밍, Warm-Up 과정 담당' },
   { period: '현재', role: '한신대학교 AI·SW대학 겸임교수', detail: 'AI·SW개론, 공학설계입문, 자바프로그래밍, 웹프로그래밍 담당' },
   { period: '현재', role: '한국기술교육대학교 외래교수', detail: '"컴퓨팅 사고" 교과목 담당' },
@@ -116,10 +116,8 @@ const InstructorIntro = (): ReactElement => {
                   color: 'var(--text-primary)',
                   lineHeight: 1.8,
                 }}>
-                  생성형 인공지능 교육과 에듀테크 플랫폼 개발을 전문으로 하는 강사입니다.
-                  86개의 교육 사이트를 직접 설계·개발·운영하고 있으며,
-                  대학교(한신대, 한국기술교육대, 경기대)와 기업(KDN, KOMIPO 등)에서
-                  AI 활용 교육을 진행하고 있습니다.
+                  생성형 인공지능 교육과 에듀테크 플랫폼 개발을 전문으로 하는 강사입니다.<br />
+                  122개의 교육 사이트를 직접 설계·개발·운영하고 있으며, 대학교(한신대, 한국기술교육대, 경기대)와 기업(KDN, KOMIPO 등)에서 AI 활용 교육을 진행하고 있습니다.
                 </div>
 
                 <div style={{ fontSize: '12px', fontWeight: 700, color: 'var(--gold)', marginBottom: '12px', letterSpacing: '0.08em' }}>KEY INFO</div>
@@ -237,7 +235,7 @@ const InstructorIntro = (): ReactElement => {
                   이론 30%, 실습 70%의 구성으로 교육 현장에서 바로 적용할 수 있는 실무 역량을 키우는 것을 목표로 합니다.
                 </p>
                 <p style={{ margin: 0 }}>
-                  86개 교육 사이트를 직접 개발·운영한 경험을 바탕으로,
+                  122개 교육 사이트를 직접 개발·운영한 경험을 바탕으로,
                   수강생이 교육 이후에도 지속적으로 학습하고 성장할 수 있는 플랫폼을 함께 제공합니다.
                 </p>
               </div>

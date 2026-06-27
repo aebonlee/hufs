@@ -63,21 +63,19 @@ const InstructorIntro = (): ReactElement => {
                 alignItems: 'center',
                 gap: '16px',
               }}>
-                <div style={{
-                  width: '180px',
-                  height: '180px',
-                  borderRadius: '50%',
-                  background: 'linear-gradient(135deg, var(--ink-surface), var(--ink-surface-hover))',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: 'var(--gold)',
-                  fontSize: '64px',
-                  fontWeight: 800,
-                  fontFamily: "'Playfair Display', serif",
-                }}>
-                  A
-                </div>
+                <img
+                  src="/aebon.jpeg"
+                  alt="이애본 박사"
+                  style={{
+                    width: '180px',
+                    height: '180px',
+                    borderRadius: '50%',
+                    objectFit: 'cover',
+                    objectPosition: 'center top',
+                    border: '3px solid var(--bg-white)',
+                    boxShadow: '0 8px 24px rgba(15,27,51,0.18)',
+                  }}
+                />
                 <div style={{ textAlign: 'center' }}>
                   <div style={{ fontSize: '20px', fontWeight: 800, color: 'var(--navy-800)' }}>이애본</div>
                   <div style={{ fontSize: '13px', color: 'var(--gold)', fontWeight: 600, marginTop: '2px' }}>Ph.D Aebon Lee</div>
@@ -128,8 +126,8 @@ const InstructorIntro = (): ReactElement => {
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
                   {[
                     ['직위', '드림아이티비즈 대표'],
-                    ['학위', '박사 (Ph.D)'],
-                    ['전공', 'AI / IT / 경영학'],
+                    ['학위', '정보관리박사 (Ph.D)'],
+                    ['전공', '컴퓨터 / 직업학 / 정보관리'],
                     ['교육 사이트', '다수 운영'],
                     ['교육 대상', '대학·기업·공공기관'],
                   ].map(([key, val]) => (

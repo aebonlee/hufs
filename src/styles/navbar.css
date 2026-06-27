@@ -144,7 +144,9 @@
     position: absolute;
     top: calc(100% + var(--s-3));
     left: -16px;
-    min-width: 280px;
+    width: max-content;
+    min-width: 160px;
+    max-width: 340px;
     white-space: nowrap;
     background: var(--bg-white);
     border: 1px solid var(--line);

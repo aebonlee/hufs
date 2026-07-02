@@ -173,13 +173,13 @@ export const translations: Record<string, Record<string, unknown>> = {
     site: {
       nav: {
         curriculum: '교육과정',
-        day1: '1회차 — Claude 바이브코딩 입문 (4H)',
-        day2: '2회차 — 행정 실무 도구 제작 (4H)',
+        day1: '1부 — Claude 바이브코딩 입문 (2H)',
+        day2: '2부 — 행정 실무 도구 제작 (2H)',
         learning: '학습하기',
         lecture: '강의안',
         lectureSetup: '실습 환경 설정',
-        lectureDay1: '1회차 강의안',
-        lectureDay2: '2회차 강의안',
+        lectureDay1: '1부 강의안',
+        lectureDay2: '2부 강의안',
         promptLearning: '프롬프트 학습',
         promptHub: '학습 자료',
         promptWorkshop: '작성 평가',
@@ -208,7 +208,7 @@ export const translations: Record<string, Record<string, unknown>> = {
         title: 'HUFS Vibe Coding',
         subtitle: '한국외국어대학교 교직원을 위한 대학 행정 실무 바이브코딩',
         welcome: '대학 행정 실무 바이브코딩 교육 플랫폼에 오신 것을 환영합니다.',
-        description: 'Claude와 대화하며 공문·민원·데이터 정리부터 행정 웹도구 제작·배포까지 8시간 만에 익힙니다.'
+        description: 'Claude와 대화하며 공문·민원·데이터 정리부터 행정 웹도구 제작·배포까지 4시간 만에 익힙니다.'
       }
     }
   },
@@ -386,8 +386,8 @@ export const translations: Record<string, Record<string, unknown>> = {
     site: {
       nav: {
         curriculum: 'Courses',
-        day1: 'Session 1 — Claude Vibe Coding Intro (4H)',
-        day2: 'Session 2 — Building Admin Tools (4H)',
+        day1: 'Session 1 — Claude Vibe Coding Intro (2H)',
+        day2: 'Session 2 — Building Admin Tools (2H)',
         learning: 'Learning',
         lecture: 'Lectures',
         lectureSetup: 'Environment Setup',
@@ -421,7 +421,7 @@ export const translations: Record<string, Record<string, unknown>> = {
         title: 'HUFS Vibe Coding',
         subtitle: 'Vibe Coding for University Administration at HUFS',
         welcome: 'Welcome to the University Administration Vibe Coding Platform.',
-        description: 'Learn to automate admin work and build & deploy web tools with Claude in just 8 hours.'
+        description: 'Learn to automate admin work and build & deploy web tools with Claude in just 4 hours.'
       }
     }
   }

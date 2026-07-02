@@ -52,12 +52,12 @@ type TimelinePoint = string | { p: boolean; t: string };
 const CurriculumIntermediate = (): ReactElement => {
   return (
     <>
-      <SEOHead title="2회차 커리큘럼 — 행정 실무 도구 제작 & 배포" description="대학 행정 실무를 위한 바이브 코딩 기초 2회차: 도구 기획, Claude 웹앱, 데이터 연동·자동화, 배포 (4시간)" />
+      <SEOHead title="2부 커리큘럼 — 행정 실무 도구 제작 & 배포" description="대학 행정 실무를 위한 바이브 코딩 기초 2부: 도구 기획, Claude 웹앱, 데이터 연동·자동화, 배포" />
 
       <section className="page-header-ed">
         <div className="container">
-          <div className="eyebrow">Session 2 · 2회차 · 4시간</div>
-          <h2>2회차 — 행정 실무 도구 제작 &amp; 배포</h2>
+          <div className="eyebrow">Session 2 · 2부 · 4교시</div>
+          <h2>2부 — 행정 실무 도구 제작 &amp; 배포</h2>
           <p>행정 도구 기획, Claude로 웹앱 만들기, 데이터 연동·업무 자동화, GitHub Pages 배포</p>
         </div>
       </section>
@@ -65,8 +65,8 @@ const CurriculumIntermediate = (): ReactElement => {
       <section className="section-ed">
         <div className="container">
           <div className="section-head">
-            <div className="section-num">&mdash; 2회차</div>
-            <h2 className="section-title-ed"><span className="accent">4시간</span> · 4교시</h2>
+            <div className="section-num">&mdash; 2부</div>
+            <h2 className="section-title-ed"><span className="accent">4교시</span> 상세 커리큘럼</h2>
             <div className="section-meta">Session 2 — Build & Deploy Admin Tools</div>
           </div>
 
@@ -79,7 +79,7 @@ const CurriculumIntermediate = (): ReactElement => {
                 GitHub Pages로 배포해 동료와 공유합니다.
               </p>
               <div className="curr-meta">
-                <div className="curr-meta-row"><span className="curr-meta-key">일정</span><span className="curr-meta-val">2회차 · 4시간</span></div>
+                <div className="curr-meta-row"><span className="curr-meta-key">일정</span><span className="curr-meta-val">2부 · 4교시</span></div>
                 <div className="curr-meta-row"><span className="curr-meta-key">도구</span><span className="curr-meta-val">React · Google Sheets · GitHub Pages</span></div>
                 <div className="curr-meta-row"><span className="curr-meta-key">포맷</span><span className="curr-meta-val">강의 20% + 실습 80%</span></div>
               </div>

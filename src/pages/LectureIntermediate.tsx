@@ -37,13 +37,13 @@ const LectureIntermediate = (): ReactElement => {
 
   return (
     <>
-      <SEOHead title="2회차 강의안 — 행정 실무 도구 제작 & 배포" description="대학 행정 실무를 위한 바이브 코딩 기초 2회차: 도구 기획, Claude 웹앱, 데이터 연동·자동화, 배포" />
+      <SEOHead title="2부 강의안 — 행정 실무 도구 제작 & 배포" description="대학 행정 실무를 위한 바이브 코딩 기초 2부: 도구 기획, Claude 웹앱, 데이터 연동·자동화, 배포" />
 
       <section className="page-header-ed">
         <div className="container">
           <div className="eyebrow">Session 2 Lecture</div>
-          <h2>2회차 강의안 — 행정 실무 도구 제작 &amp; 배포</h2>
-          <p>2회차 · 09:00~13:00 · 4시간</p>
+          <h2>2부 강의안 — 행정 실무 도구 제작 &amp; 배포</h2>
+          <p>2부 · 행정 실무 도구 제작 &amp; 배포</p>
         </div>
       </section>
 
@@ -54,7 +54,7 @@ const LectureIntermediate = (): ReactElement => {
           <aside className="lecture-sidebar">
             <div className="ls-title">
               <i className="fa-solid fa-book-open" />
-              2회차 목차
+              2부 목차
             </div>
 
             <ul className="ls-nav">
@@ -87,7 +87,7 @@ const LectureIntermediate = (): ReactElement => {
 
             <Link to="/lecture/basic" className="ls-course-link">
               <i className="fa-solid fa-arrow-left" />
-              1회차 강의안으로 이동
+              1부 강의안으로 이동
               <span>Session 1</span>
             </Link>
           </aside>
@@ -181,7 +181,7 @@ const LectureIntermediate = (): ReactElement => {
                   </ul>
 
                   <div className="tip-box">
-                    <strong>실습</strong>: 1회차에서 만든 안내 페이지 또는 새 폴더에,
+                    <strong>실습</strong>: 1부에서 만든 안내 페이지 또는 새 폴더에,
                     기획한 도구의 핵심 화면(입력 + 목록)을 Claude와 함께 구현해 보세요.
                   </div>
                 </div>
@@ -261,7 +261,7 @@ GitHub 저장소 만들기부터 파일 올리기, Pages 설정까지
                     <li>유용한 도구는 부서 표준으로 발전시키기</li>
                   </ul>
 
-                  <h4>4. 2회차 실습 체크리스트</h4>
+                  <h4>4. 2부 실습 체크리스트</h4>
                   <ul>
                     <li>행정 도구 요구사항 정의서 작성 (Claude 활용)</li>
                     <li>Claude로 입력 폼 + 목록 화면 구현</li>

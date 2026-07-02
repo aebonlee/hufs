@@ -35,7 +35,7 @@ const About = (): ReactElement => {
               <p style={{ margin: '0 0 12px' }}>
                 드림아이티비즈(DreamIT Biz)는 기관의 실제 업무 환경과 니즈를 반영한 맞춤형 교육 플랫폼을 제작합니다.
                 본 사이트는 한국외국어대학교 교직원을 위한 “대학 행정 실무를 위한 바이브 코딩 기초” 교육을 위해 설계되었으며,
-                Claude를 활용해 입문부터 도구 제작·배포까지 이어지는 8시간(4시간 × 2회) 커리큘럼을 제공합니다.
+                Claude를 활용해 입문부터 도구 제작·배포까지 이어지는 4시간(2개 캠퍼스 동일 진행) 커리큘럼을 제공합니다.
               </p>
               <p style={{ margin: 0 }}>
                 공문·민원·데이터 정리 등 행정 실무에 바로 적용할 수 있는 프롬프트 사례, AI 실습 환경, 자가 평가 시스템을 통해
@@ -109,8 +109,8 @@ const About = (): ReactElement => {
               marginBottom: '48px',
             }}>
               {[
-                { num: '01', title: '교육과정', desc: '8시간(4시간 × 2회) 커리큘럼', link: '/curriculum' },
-                { num: '02', title: '강의안', desc: '회차별 상세 학습 자료', link: '/lecture' },
+                { num: '01', title: '교육과정', desc: '4시간(2개 캠퍼스 동일 진행) 커리큘럼', link: '/curriculum' },
+                { num: '02', title: '강의안', desc: '파트별 상세 학습 자료', link: '/lecture' },
                 { num: '03', title: '프롬프트 학습', desc: '작성 기법 + 평가 + 테스트', link: '/prompt-eval' },
                 { num: '04', title: '바이브코딩 실습', desc: '프롬프트 작성 실습', link: '/practice' },
                 { num: '05', title: '프롬프트 사례', desc: '업무용 프롬프트 사례', link: '/prompt-cases' },

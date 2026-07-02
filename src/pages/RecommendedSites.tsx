@@ -14,7 +14,7 @@ const DREAMIT_SITES: SiteLink[] = [
     name: 'HUFS Vibe Coding',
     nameEn: '한국외국어대학교 바이브코딩 교육',
     url: 'https://hufs.dreamitbiz.com',
-    desc: '한국외국어대학교 교직원을 위한 대학 행정 실무 바이브코딩 교육 플랫폼. Claude 기반 8시간(4시간 × 2회) 커리큘럼, 강의안, 프롬프트 학습을 제공합니다.',
+    desc: '한국외국어대학교 교직원을 위한 대학 행정 실무 바이브코딩 교육 플랫폼. Claude 기반 4시간(2개 캠퍼스 동일 진행) 커리큘럼, 강의안, 프롬프트 학습을 제공합니다.',
     tag: '현재 사이트',
   },
   {

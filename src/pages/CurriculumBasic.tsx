@@ -53,12 +53,12 @@ type TimelinePoint = string | { p: boolean; t: string };
 const CurriculumBasic = (): ReactElement => {
   return (
     <>
-      <SEOHead title="1회차 커리큘럼 — Claude 바이브코딩 입문" description="대학 행정 실무를 위한 바이브 코딩 기초 1회차: Claude 이해, 행정 프롬프트, 개발 환경, 첫 웹페이지 (4시간)" />
+      <SEOHead title="1부 커리큘럼 — Claude 바이브코딩 입문" description="대학 행정 실무를 위한 바이브 코딩 기초 1부: Claude 이해, 행정 프롬프트, 개발 환경, 첫 웹페이지" />
 
       <section className="page-header-ed">
         <div className="container">
-          <div className="eyebrow">Session 1 · 1회차 · 4시간</div>
-          <h2>1회차 — Claude 바이브코딩 입문</h2>
+          <div className="eyebrow">Session 1 · 1부 · 4교시</div>
+          <h2>1부 — Claude 바이브코딩 입문</h2>
           <p>바이브코딩 &amp; Claude 이해, 행정 실무 프롬프트, 개발 환경 준비, 첫 안내 웹페이지 만들기</p>
         </div>
       </section>
@@ -66,8 +66,8 @@ const CurriculumBasic = (): ReactElement => {
       <section className="section-ed">
         <div className="container">
           <div className="section-head">
-            <div className="section-num">&mdash; 1회차</div>
-            <h2 className="section-title-ed"><span className="accent">4시간</span> · 4교시</h2>
+            <div className="section-num">&mdash; 1부</div>
+            <h2 className="section-title-ed"><span className="accent">4교시</span> 상세 커리큘럼</h2>
             <div className="section-meta">Session 1 — Claude & Admin Automation</div>
           </div>
 
@@ -80,7 +80,7 @@ const CurriculumBasic = (): ReactElement => {
                 Claude로 첫 행정 안내 웹페이지를 만듭니다.
               </p>
               <div className="curr-meta">
-                <div className="curr-meta-row"><span className="curr-meta-key">일정</span><span className="curr-meta-val">1회차 · 4시간</span></div>
+                <div className="curr-meta-row"><span className="curr-meta-key">일정</span><span className="curr-meta-val">1부 · 4교시</span></div>
                 <div className="curr-meta-row"><span className="curr-meta-key">도구</span><span className="curr-meta-val">Claude.ai · Claude Code · GitHub</span></div>
                 <div className="curr-meta-row"><span className="curr-meta-key">포맷</span><span className="curr-meta-val">강의 20% + 실습 80%</span></div>
               </div>

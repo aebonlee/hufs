@@ -11,7 +11,7 @@ const Lecture = (): ReactElement => {
         <div className="container">
           <div className="eyebrow">Lecture Notes</div>
           <h2>강의안</h2>
-          <p>Claude로 배우는 대학 행정 실무 바이브코딩 — 회차별 강의 자료</p>
+          <p>Claude로 배우는 대학 행정 실무 바이브코딩 — 파트별 강의 자료</p>
         </div>
       </section>
 
@@ -19,8 +19,8 @@ const Lecture = (): ReactElement => {
         <div className="container">
           <div className="section-head">
             <div className="section-num">&mdash; 강의 자료</div>
-            <h2 className="section-title-ed">회차별 <span className="accent">강의안</span></h2>
-            <div className="section-meta">2 sessions · detailed notes</div>
+            <h2 className="section-title-ed">파트별 <span className="accent">강의안</span></h2>
+            <div className="section-meta">2 parts · detailed notes</div>
           </div>
           <div className="courses">
             <Link className="course" to="/lecture/setup">
@@ -51,16 +51,16 @@ const Lecture = (): ReactElement => {
                 <span className="course-level"><i className="on" /><i /></span>
               </div>
               <div className="course-num"><span className="slash">/</span>01</div>
-              <h3 className="course-title">1회차 강의안</h3>
+              <h3 className="course-title">1부 강의안</h3>
               <p className="course-desc">
                 바이브코딩 &amp; Claude 이해, 행정 실무 프롬프트,
                 개발 환경 준비, 첫 안내 웹페이지 만들기 강의 자료
               </p>
               <div className="course-meta-row">
-                <span>4시간 분량</span><span>Claude 입문</span>
+                <span>약 2시간 분량</span><span>Claude 입문</span>
               </div>
               <span className="course-cta">
-                1회차 강의안 보기
+                1부 강의안 보기
                 <svg className="btn-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M3 8h10M9 4l4 4-4 4" />
                 </svg>
@@ -73,16 +73,16 @@ const Lecture = (): ReactElement => {
                 <span className="course-level"><i className="on" /><i className="on" /><i /></span>
               </div>
               <div className="course-num"><span className="slash">/</span>02</div>
-              <h3 className="course-title">2회차 강의안</h3>
+              <h3 className="course-title">2부 강의안</h3>
               <p className="course-desc">
                 행정 도구 기획, Claude로 웹앱 만들기, 데이터 연동·자동화,
                 GitHub Pages 배포 및 실무 적용 강의 자료
               </p>
               <div className="course-meta-row">
-                <span>4시간 분량</span><span>도구 제작 &amp; 배포</span>
+                <span>약 2시간 분량</span><span>도구 제작 &amp; 배포</span>
               </div>
               <span className="course-cta">
-                2회차 강의안 보기
+                2부 강의안 보기
                 <svg className="btn-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M3 8h10M9 4l4 4-4 4" />
                 </svg>

@@ -109,7 +109,7 @@ const TOOLS = [
 const PILLARS = [
   { n: '/01', t: '클로드와 대화하며', d: '코드를 외우지 않습니다. Claude에게 자연어로 요청하고, 수정하고, 완성합니다. 비전공자도 충분합니다.' },
   { n: '/02', t: '행정 실무 중심', d: '공문 작성, 민원 응대, 데이터 정리, 안내 페이지 등 실제 대학 행정 업무를 소재로 만듭니다.' },
-  { n: '/03', t: '결과물을 손에', d: '8시간 뒤, 직접 만든 행정 웹도구를 배포해 동료와 공유하고 바로 업무에 적용합니다.' },
+  { n: '/03', t: '결과물을 손에', d: '4시간 뒤, 직접 만든 행정 웹도구를 배포해 동료와 공유하고 바로 업무에 적용합니다.' },
 ];
 
 type TimelinePoint = string | { p: boolean; t: string };
@@ -143,7 +143,8 @@ const Home = (): ReactElement => {
               <p className="hero-lead">
                 한국외국어대학교 교직원을 위한 바이브코딩 실습 교육.
                 Claude(클로드)와 대화하며 공문·민원·데이터 정리부터
-                나만의 행정 웹도구 제작·배포까지, 8시간(4시간 × 2회) 집중 과정입니다.
+                나만의 행정 웹도구 제작·배포까지, 4시간 집중 과정입니다.
+                서울·글로벌 2개 캠퍼스에서 동일한 내용으로 진행합니다.
               </p>
               <div className="hero-actions-ed">
                 <Link className="btn btn-primary" to="/curriculum/basic">
@@ -162,11 +163,11 @@ const Home = (): ReactElement => {
               <div className="metric-stack">
                 <div className="metric">
                   <div className="metric-num"><span className="accent">2</span></div>
-                  <div className="metric-label">교육 회차</div>
+                  <div className="metric-label">진행 캠퍼스</div>
                 </div>
                 <div className="metric">
-                  <div className="metric-num">8<span className="small">h</span></div>
-                  <div className="metric-label">총 교육 시간</div>
+                  <div className="metric-num">4<span className="small">h</span></div>
+                  <div className="metric-label">교육 시간</div>
                 </div>
                 <div className="metric">
                   <div className="metric-num">Claude</div>
@@ -180,10 +181,10 @@ const Home = (): ReactElement => {
 
               <div className="hero-card">
                 <div className="hero-card-eyebrow">2026 · HUFS Vibe Coding</div>
-                <div className="hero-card-title">교육 일정 안내</div>
+                <div className="hero-card-title">교육 일정 안내 · 4시간 동일 과정 2회</div>
                 <ul className="hero-card-list">
-                  <li>1회차 — Claude 입문 &amp; 행정 자동화 (4H)</li>
-                  <li>2회차 — 행정 웹도구 제작 &amp; 배포 (4H)</li>
+                  <li>7/28(화) — 서울캠퍼스 교수학습개발원 1층 108호 (PC 실습실)</li>
+                  <li>7/30(목) — 글로벌캠퍼스 백년관 2층 213호 (멀티미디어교육실)</li>
                   <li>구성 — 강의 20% · 실습 80%</li>
                   <li>대상 — 한국외국어대학교 교직원</li>
                 </ul>
@@ -213,8 +214,8 @@ const Home = (): ReactElement => {
         <div className="container">
           <div className="section-head">
             <div className="section-num">&mdash; 01 / Programs</div>
-            <h2 className="section-title-ed">2회차 <span className="accent">커리큘럼</span></h2>
-            <div className="section-meta">8 hours · 2 sessions · Claude</div>
+            <h2 className="section-title-ed">4시간 <span className="accent">커리큘럼</span></h2>
+            <div className="section-meta">4 hours · 2 campuses · Claude</div>
           </div>
           <div className="courses">
             <Link className="course featured" to="/curriculum/basic">
@@ -229,7 +230,7 @@ const Home = (): ReactElement => {
                 개발 환경을 갖춰 첫 안내 웹페이지를 만듭니다.
               </p>
               <div className="course-meta-row">
-                <span>4시간</span><span>1회차</span><span>입문 · 실습 포함</span>
+                <span>약 2시간</span><span>1부</span><span>입문 · 실습 포함</span>
               </div>
               <span className="course-cta">
                 커리큘럼 보기
@@ -250,7 +251,7 @@ const Home = (): ReactElement => {
                 GitHub Pages로 배포해 동료와 공유합니다.
               </p>
               <div className="course-meta-row">
-                <span>4시간</span><span>2회차</span><span>제작 · 배포</span>
+                <span>약 2시간</span><span>2부</span><span>제작 · 배포</span>
               </div>
               <span className="course-cta">
                 커리큘럼 보기
@@ -268,7 +269,7 @@ const Home = (): ReactElement => {
         <div className="container">
           <div className="section-head">
             <div className="section-num">&mdash; 02 / Schedule</div>
-            <h2 className="section-title-ed"><span className="accent">2회차</span> &times; 4시간</h2>
+            <h2 className="section-title-ed"><span className="accent">2개 파트</span> &times; 약 2시간</h2>
             <div className="section-meta">
               {tab === 'day1' ? 'Session 1 — Claude 입문 & 행정 자동화' : 'Session 2 — 행정 도구 제작 & 배포'}
             </div>
@@ -290,7 +291,7 @@ const Home = (): ReactElement => {
                     fontFamily: 'inherit',
                   }}
                 >
-                  {d === 'day1' ? '1회차 (4H)' : '2회차 (4H)'}
+                  {d === 'day1' ? '1부 (2H)' : '2부 (2H)'}
                 </button>
               ))}
             </div>
@@ -307,19 +308,19 @@ const Home = (): ReactElement => {
                   : '실제 행정 업무를 기획해 Claude로 웹앱을 만들고, 데이터를 연동·자동화한 뒤 GitHub Pages로 배포합니다.'}
               </p>
               <div className="curr-tabs">
-                <button className={`curr-tab ${tab === 'day1' ? 'active' : ''}`} onClick={() => setTab('day1')}>1회차</button>
-                <button className={`curr-tab ${tab === 'day2' ? 'active' : ''}`} onClick={() => setTab('day2')}>2회차</button>
+                <button className={`curr-tab ${tab === 'day1' ? 'active' : ''}`} onClick={() => setTab('day1')}>1부</button>
+                <button className={`curr-tab ${tab === 'day2' ? 'active' : ''}`} onClick={() => setTab('day2')}>2부</button>
               </div>
               <div className="curr-meta">
                 {tab === 'day1' ? (
                   <>
-                    <div className="curr-meta-row"><span className="curr-meta-key">일정</span><span className="curr-meta-val">1회차 · 4시간</span></div>
+                    <div className="curr-meta-row"><span className="curr-meta-key">구성</span><span className="curr-meta-val">1부 · 약 2시간</span></div>
                     <div className="curr-meta-row"><span className="curr-meta-key">주제</span><span className="curr-meta-val">Claude 입문 + 행정 자동화</span></div>
                     <div className="curr-meta-row"><span className="curr-meta-key">도구</span><span className="curr-meta-val">Claude.ai · Claude Code · GitHub</span></div>
                   </>
                 ) : (
                   <>
-                    <div className="curr-meta-row"><span className="curr-meta-key">일정</span><span className="curr-meta-val">2회차 · 4시간</span></div>
+                    <div className="curr-meta-row"><span className="curr-meta-key">구성</span><span className="curr-meta-val">2부 · 약 2시간</span></div>
                     <div className="curr-meta-row"><span className="curr-meta-key">주제</span><span className="curr-meta-val">행정 도구 제작 + 배포</span></div>
                     <div className="curr-meta-row"><span className="curr-meta-key">도구</span><span className="curr-meta-val">React · Sheets · GitHub Pages</span></div>
                   </>
@@ -401,7 +402,7 @@ const Home = (): ReactElement => {
             <div>
               <div className="cta-eyebrow">&mdash; 교육 안내</div>
               <h2 className="cta-title-ed">
-                8시간 후,<br />
+                4시간 후,<br />
                 <span className="accent">행정 업무가 가벼워집니다.</span>
               </h2>
             </div>

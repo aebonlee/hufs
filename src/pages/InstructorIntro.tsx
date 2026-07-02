@@ -117,7 +117,7 @@ const InstructorIntro = (): ReactElement => {
                   lineHeight: 1.8,
                 }}>
                   생성형 인공지능 교육과 에듀테크 플랫폼 개발을 전문으로 하는 강사입니다.<br />
-                  122개의 교육 사이트를 직접 설계·개발·운영하고 있으며, 대학교(한신대, 한국기술교육대, 경기대)와 기업(KDN, KOMIPO 등)에서 AI 활용 교육을 진행하고 있습니다.
+                  122개의 교육 사이트를 직접 설계·개발·운영하고 있으며, 대학교(경기대, 한신대, 한국기술교육대, 전남대, 서울대, 서울시립대, 한국외대, 한라대, 조선대 등)와 기업(KDN, KOMIPO 등)에서 AI 활용 교육을 진행하고 있습니다.
                 </div>
 
                 <div style={{ fontSize: '12px', fontWeight: 700, color: 'var(--gold)', marginBottom: '12px', letterSpacing: '0.08em' }}>KEY INFO</div>

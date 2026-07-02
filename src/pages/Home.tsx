@@ -133,7 +133,7 @@ const Home = (): ReactElement => {
           <div className="hero-grid">
             <div>
               <div className="hero-eyebrow">
-                <span>한국외국어대학교 · 2026 · 대학 행정 바이브코딩</span>
+                <span>한국외국어대학교 · 2026 · 대학 행정 실무를 위한 바이브 코딩 기초</span>
               </div>
               <h1 className="hero-title-ed">
                 코드를 몰라도<br />

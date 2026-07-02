@@ -37,7 +37,7 @@ const LectureBasic = (): ReactElement => {
 
   return (
     <>
-      <SEOHead title="1회차 강의안 — Claude 바이브코딩 입문" description="대학 행정 바이브코딩 1회차: Claude 이해, 행정 프롬프트, 개발 환경, 첫 웹페이지" />
+      <SEOHead title="1회차 강의안 — Claude 바이브코딩 입문" description="대학 행정 실무를 위한 바이브 코딩 기초 1회차: Claude 이해, 행정 프롬프트, 개발 환경, 첫 웹페이지" />
 
       <section className="page-header-ed">
         <div className="container">

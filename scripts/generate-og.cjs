@@ -47,7 +47,7 @@ const svg = `
   <text x="72" y="320" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="900" letter-spacing="-1">Vibe Coding</text>
 
   <!-- Korean subtitle -->
-  <text x="72" y="378" fill="rgba(255,255,255,0.78)" font-family="Arial, sans-serif" font-size="26" font-weight="400">대학 행정 실무를 위한 바이브 코딩 · Claude 기반</text>
+  <text x="72" y="378" fill="rgba(255,255,255,0.78)" font-family="Arial, sans-serif" font-size="26" font-weight="400">대학 행정 실무를 위한 바이브 코딩 기초 · Claude 기반</text>
 
   <!-- Accent line -->
   <rect x="72" y="408" width="100" height="4" fill="url(#accent)" rx="2"/>

@@ -52,7 +52,7 @@ type TimelinePoint = string | { p: boolean; t: string };
 const CurriculumIntermediate = (): ReactElement => {
   return (
     <>
-      <SEOHead title="2회차 커리큘럼 — 행정 실무 도구 제작 & 배포" description="대학 행정 바이브코딩 2회차: 도구 기획, Claude 웹앱, 데이터 연동·자동화, 배포 (4시간)" />
+      <SEOHead title="2회차 커리큘럼 — 행정 실무 도구 제작 & 배포" description="대학 행정 실무를 위한 바이브 코딩 기초 2회차: 도구 기획, Claude 웹앱, 데이터 연동·자동화, 배포 (4시간)" />
 
       <section className="page-header-ed">
         <div className="container">

@@ -1,6 +1,6 @@
 /**
  * 한국외국어대학교(HUFS) 바이브코딩 교육 사이트 설정
- * 대학 행정 실무를 위한 바이브 코딩 (Claude 기반) · 8시간 (4시간 × 2회)
+ * 대학 행정 실무를 위한 바이브 코딩 기초 (Claude 기반) · 8시간 (4시간 × 2회)
  */
 
 import type { SiteConfig } from '../types';
@@ -9,7 +9,7 @@ const site: SiteConfig = {
   id: 'hufs',
 
   name: 'HUFS Vibe Coding',
-  nameKo: '대학 행정 실무를 위한 바이브 코딩',
+  nameKo: '대학 행정 실무를 위한 바이브 코딩 기초',
   description: '한국외국어대학교 교직원 대상, Claude로 배우는 대학 행정 실무 바이브코딩 교육 (8시간, 4시간 × 2회)',
   url: 'https://hufs.dreamitbiz.com',
 

@@ -61,7 +61,7 @@ const TOOLS = [
   { name: 'Claude.ai', cat: 'LLM · Anthropic', desc: '대화형 AI. 공문·기획·코드 작성을 자연어로 요청.', mark: 'C' },
   { name: 'Claude Code', cat: 'AI AGENT · CLI', desc: '터미널 기반 코딩 에이전트. 파일 생성부터 배포까지 대행.', mark: 'CC' },
   { name: 'Claude Code 웹', cat: 'AI AGENT · WEB', desc: '설치 없이 브라우저에서 바로 쓰는 Claude Code. 웹에서 코드 작성·수정.', mark: 'CW' },
-  { name: 'Claude 디자인', cat: 'DESIGN · Artifact', desc: 'Claude로 화면·UI를 디자인하고 아티팩트로 즉시 미리보기.', mark: 'CD' },
+  { name: 'Claude Code 디자인', cat: 'DESIGN · Artifact', desc: 'Claude Code로 화면·UI를 디자인하고 아티팩트로 즉시 미리보기.', mark: 'CD' },
   { name: 'GitHub', cat: 'VERSION CONTROL', desc: '코드 저장소 & 무료 웹 배포(GitHub Pages).', mark: 'G' },
   { name: 'React + Vite', cat: 'FRAMEWORK · Frontend', desc: '웹 화면을 만드는 도구. AI가 코드를 대신 작성.', mark: 'R' },
   { name: 'Google Sheets', cat: 'PRODUCTIVITY · Data', desc: '행정 데이터를 다루는 익숙한 표 도구를 데이터로 연결.', mark: 'GS' },

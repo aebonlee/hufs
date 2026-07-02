@@ -98,7 +98,7 @@ const LectureBasic = (): ReactElement => {
 
               {/* ═══ Part 1 ═══ */}
               <div id="part1" className="lecture-section">
-                <h3>Part 1. 바이브코딩 &amp; Claude 이해 (09:00~10:00)</h3>
+                <h3>Part 1. 바이브코딩 &amp; Claude 이해 (10:00~10:30)</h3>
                 <div className="lecture-content">
                   <h4>1. 바이브코딩(Vibe Coding)이란?</h4>
                   <p>
@@ -153,7 +153,7 @@ const LectureBasic = (): ReactElement => {
 
               {/* ═══ Part 2 ═══ */}
               <div id="part2" className="lecture-section">
-                <h3>Part 2. 행정 실무를 위한 Claude 프롬프트 작성법 (10:00~11:00)</h3>
+                <h3>Part 2. 행정 실무를 위한 Claude 프롬프트 작성법 (10:30~11:00)</h3>
                 <div className="lecture-content">
                   <h4>1. 좋은 프롬프트의 4원칙</h4>
                   <div className="example-box">
@@ -206,7 +206,7 @@ const LectureBasic = (): ReactElement => {
 
               {/* ═══ Part 3 ═══ */}
               <div id="part3" className="lecture-section">
-                <h3>Part 3. 개발 환경 준비 &amp; 첫 프로젝트 (11:00~12:00)</h3>
+                <h3>Part 3. 개발 환경 준비 &amp; 첫 프로젝트 (11:00~11:30)</h3>
                 <div className="lecture-content">
                   <h4>1. 무엇을 준비하나요?</h4>
                   <ul>
@@ -256,7 +256,7 @@ HTML 파일 하나로, 별도 설치 없이 브라우저에서 바로 열리게 
 
               {/* ═══ Part 4 ═══ */}
               <div id="part4" className="lecture-section">
-                <h3>Part 4. Claude로 첫 행정 안내 웹페이지 만들기 (12:00~13:00)</h3>
+                <h3>Part 4. Claude로 첫 행정 안내 웹페이지 만들기 (11:30~12:00)</h3>
                 <div className="lecture-content">
                   <h4>1. “무엇을 만들지” 한 문장으로 정의하기</h4>
                   <p>

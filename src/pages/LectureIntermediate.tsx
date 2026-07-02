@@ -98,7 +98,7 @@ const LectureIntermediate = (): ReactElement => {
 
               {/* ═══ Part 1 ═══ */}
               <div id="part1" className="lecture-section">
-                <h3>Part 1. 행정 업무 도구 기획 (09:00~10:00)</h3>
+                <h3>Part 1. 행정 업무 도구 기획 (13:00~13:30)</h3>
                 <div className="lecture-content">
                   <h4>1. “자동화 거리” 찾기</h4>
                   <p>
@@ -144,7 +144,7 @@ const LectureIntermediate = (): ReactElement => {
 
               {/* ═══ Part 2 ═══ */}
               <div id="part2" className="lecture-section">
-                <h3>Part 2. Claude로 웹앱 만들기 (10:00~11:00)</h3>
+                <h3>Part 2. Claude로 웹앱 만들기 (13:30~14:00)</h3>
                 <div className="lecture-content">
                   <h4>1. 가볍게 이해하는 기초</h4>
                   <div className="example-box">
@@ -189,7 +189,7 @@ const LectureIntermediate = (): ReactElement => {
 
               {/* ═══ Part 3 ═══ */}
               <div id="part3" className="lecture-section">
-                <h3>Part 3. 데이터 연동 &amp; 업무 자동화 (11:00~12:00)</h3>
+                <h3>Part 3. 데이터 연동 &amp; 업무 자동화 (14:00~14:30)</h3>
                 <div className="lecture-content">
                   <h4>1. 데이터를 어디에 둘까?</h4>
                   <div className="example-box">
@@ -224,7 +224,7 @@ const LectureIntermediate = (): ReactElement => {
 
               {/* ═══ Part 4 ═══ */}
               <div id="part4" className="lecture-section">
-                <h3>Part 4. 배포 &amp; 실무 적용 (12:00~13:00)</h3>
+                <h3>Part 4. 배포 &amp; 실무 적용 (14:30~15:00)</h3>
                 <div className="lecture-content">
                   <h4>1. GitHub Pages로 무료 배포</h4>
                   <p>

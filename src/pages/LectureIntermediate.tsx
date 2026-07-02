@@ -4,10 +4,8 @@ import SEOHead from '../components/SEOHead';
 import type { ReactElement } from 'react';
 
 const sections = [
-  { id: 'part1', label: 'Part1. 행정 업무 도구 기획' },
-  { id: 'part2', label: 'Part2. Claude로 웹앱 만들기' },
-  { id: 'part3', label: 'Part3. 데이터 연동 & 자동화' },
-  { id: 'part4', label: 'Part4. 배포 & 실무 적용' },
+  { id: 'part1', label: '1교시. 도구 기획 & 웹앱 만들기' },
+  { id: 'part2', label: '2교시. 데이터 연동 & 배포' },
 ];
 
 const LectureIntermediate = (): ReactElement => {
@@ -96,9 +94,9 @@ const LectureIntermediate = (): ReactElement => {
           <div className="lecture-main">
             <div className="lecture-page" style={{ padding: 0, maxWidth: 'none' }}>
 
-              {/* ═══ Part 1 ═══ */}
+              {/* ═══ 1교시 (13:00~14:00) ═══ */}
               <div id="part1" className="lecture-section">
-                <h3>Part 1. 행정 업무 도구 기획 (13:00~13:30)</h3>
+                <h3>1교시. 행정 업무 도구 기획 &amp; Claude로 웹앱 만들기 (13:00~14:00)</h3>
                 <div className="lecture-content">
                   <h4>1. “자동화 거리” 찾기</h4>
                   <p>
@@ -139,14 +137,7 @@ const LectureIntermediate = (): ReactElement => {
                     <strong>실습</strong>: 학사 FAQ · 신청 양식 · 일정 안내 중 하나를 골라,
                     위 프롬프트로 Claude에게 요구사항 정의서를 받아 보세요.
                   </div>
-                </div>
-              </div>
-
-              {/* ═══ Part 2 ═══ */}
-              <div id="part2" className="lecture-section">
-                <h3>Part 2. Claude로 웹앱 만들기 (13:30~14:00)</h3>
-                <div className="lecture-content">
-                  <h4>1. 가볍게 이해하는 기초</h4>
+                  <h4>4. 가볍게 이해하는 기초</h4>
                   <div className="example-box">
                     <strong>HTML</strong>: 화면의 뼈대(제목, 문단, 버튼, 입력칸)<br />
                     <strong>CSS</strong>: 색·간격·글꼴 등 보이는 스타일<br />
@@ -155,7 +146,7 @@ const LectureIntermediate = (): ReactElement => {
                     전달하면 Claude가 코드를 작성합니다.
                   </div>
 
-                  <h4>2. 기능을 자연어로 요청하기</h4>
+                  <h4>5. 기능을 자연어로 요청하기</h4>
                   <div className="prompt-example">{`"React로 '학과 행사 신청' 페이지를 만들어줘.
 
 - 상단: 행사명과 마감일 안내
@@ -166,14 +157,14 @@ const LectureIntermediate = (): ReactElement => {
 
 한 번에 다 만들지 말고, 먼저 입력 폼과 목록부터 보여줘."`}</div>
 
-                  <h4>3. 오류는 그대로 붙여서 고치기</h4>
+                  <h4>6. 오류는 그대로 붙여서 고치기</h4>
                   <div className="example-box">
                     실행 중 빨간 에러가 보이면, 그 <strong>에러 메시지를 그대로 복사해</strong>
                     Claude에게 붙여넣고 “이 오류가 났어. 고쳐줘”라고 하면 됩니다.
                     원인과 수정 코드를 함께 알려줍니다.
                   </div>
 
-                  <h4>4. 기능 단위로 키우기</h4>
+                  <h4>7. 기능 단위로 키우기</h4>
                   <ul>
                     <li>“신청자가 없을 때 ‘아직 신청자가 없습니다’를 보여줘”</li>
                     <li>“연락처 형식이 올바른지 확인하는 검사를 추가해줘”</li>
@@ -187,9 +178,9 @@ const LectureIntermediate = (): ReactElement => {
                 </div>
               </div>
 
-              {/* ═══ Part 3 ═══ */}
-              <div id="part3" className="lecture-section">
-                <h3>Part 3. 데이터 연동 &amp; 업무 자동화 (14:00~14:30)</h3>
+              {/* ═══ 2교시 (14:00~15:00) ═══ */}
+              <div id="part2" className="lecture-section">
+                <h3>2교시. 데이터 연동·자동화 &amp; 배포·실무 적용 (14:00~15:00)</h3>
                 <div className="lecture-content">
                   <h4>1. 데이터를 어디에 둘까?</h4>
                   <div className="example-box">
@@ -219,14 +210,7 @@ const LectureIntermediate = (): ReactElement => {
                     <strong>실습</strong>: 만든 도구에 저장 기능과 자동 집계(또는 CSV 내려받기)를
                     더해, 데이터가 “살아 움직이는” 도구로 업그레이드해 보세요.
                   </div>
-                </div>
-              </div>
-
-              {/* ═══ Part 4 ═══ */}
-              <div id="part4" className="lecture-section">
-                <h3>Part 4. 배포 &amp; 실무 적용 (14:30~15:00)</h3>
-                <div className="lecture-content">
-                  <h4>1. GitHub Pages로 무료 배포</h4>
+                  <h4>5. GitHub Pages로 무료 배포</h4>
                   <p>
                     만든 도구를 인터넷에 올리면 동료가 링크만으로 바로 쓸 수 있습니다.
                     Claude에게 배포 방법을 단계별로 안내받을 수 있습니다.
@@ -242,14 +226,14 @@ GitHub 저장소 만들기부터 파일 올리기, Pages 설정까지
                     ④ 발급된 주소(링크)를 동료에게 공유
                   </div>
 
-                  <h4>2. 동료에게 공유하기</h4>
+                  <h4>6. 동료에게 공유하기</h4>
                   <ul>
                     <li>발급된 <code className="inline-code">https://아이디.github.io/저장소</code> 주소 공유</li>
                     <li>QR 코드로 만들어 게시판·메일에 첨부</li>
                     <li>수정이 필요하면 다시 Claude에게 요청 → 재배포</li>
                   </ul>
 
-                  <h4>3. 실무 적용 전략 &amp; 주의점</h4>
+                  <h4>7. 실무 적용 전략 &amp; 주의점</h4>
                   <div className="tip-box">
                     <strong>개인정보·보안</strong>: 공개 페이지에는 민감한 개인정보를 저장하지 않습니다.
                     실명·학번·연락처가 필요한 도구는 교내 시스템·접근 권한이 있는 환경에서 운영하고,
@@ -261,7 +245,7 @@ GitHub 저장소 만들기부터 파일 올리기, Pages 설정까지
                     <li>유용한 도구는 부서 표준으로 발전시키기</li>
                   </ul>
 
-                  <h4>4. 2부 실습 체크리스트</h4>
+                  <h4>8. 2부 실습 체크리스트</h4>
                   <ul>
                     <li>행정 도구 요구사항 정의서 작성 (Claude 활용)</li>
                     <li>Claude로 입력 폼 + 목록 화면 구현</li>
